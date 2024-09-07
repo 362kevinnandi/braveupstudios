@@ -181,7 +181,7 @@ const ThankYouPage = async ({
                 <div className='flex items-center justify-between border-t border-gray-200 pt-6 text-gray-900'>
                   <p className='text-base'>Total</p>
                   <p className='text-base'>
-                    {formatPrice(orderTotal + 1)}
+                    {formatPrice(orderTotal + 3.5)}
                   </p>
                 </div>
               </div>
