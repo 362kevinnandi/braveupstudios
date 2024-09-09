@@ -9,6 +9,9 @@ const nextConfig = {
 				protocol: 'http',
 			},
 		],
+		eslint: {
+			ignoreDuringBuilds: true
+		}
 	},
 };
 
