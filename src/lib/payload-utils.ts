@@ -1,6 +1,6 @@
-import { User } from '../payload-types'
-import { ReadonlyRequestCookies } from 'next/dist/server/web/spec-extension/adapters/request-cookies'
-import { NextRequest } from 'next/server'
+import { User } from '../payload-types';
+import { ReadonlyRequestCookies } from 'next/dist/server/web/spec-extension/adapters/request-cookies';
+import { NextRequest } from 'next/server';
 
 export const getServerSideUser = async (
   cookies: NextRequest['cookies'] | ReadonlyRequestCookies
@@ -19,12 +19,13 @@ export const getServerSideUser = async (
     });
 
     if (!meRes.ok) {
+      console.error(`Failed to fetch user data: ${meRes.status} ${meRes.statusText}`);
       throw new Error('Failed to fetch user data');
     }
 
     const { user } = (await meRes.json()) as { user: User | null };
-
     return user;
+
   } catch (error) {
     console.error('Error fetching user:', error);
     return null;
