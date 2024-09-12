@@ -4,21 +4,29 @@ import { NextRequest } from 'next/server'
 
 export const getServerSideUser = async (
   cookies: NextRequest['cookies'] | ReadonlyRequestCookies
-) => {
-  const token = cookies.get('payload-token')?.value
+): Promise<User | null> => {
+  const token = cookies.get('payload-token')?.value;
 
-  const meRes = await fetch(
-    `${process.env.NEXT_PUBLIC_SERVER_URL}/api/users/me`,
-    {
+  if (!token) {
+    return null;
+  }
+
+  try {
+    const meRes = await fetch(`${process.env.NEXT_PUBLIC_SERVER_URL}/api/users/me`, {
       headers: {
         Authorization: `JWT ${token}`,
       },
+    });
+
+    if (!meRes.ok) {
+      throw new Error('Failed to fetch user data');
     }
-  )
 
-  const { user } = (await meRes.json()) as {
-    user: User | null
+    const { user } = (await meRes.json()) as { user: User | null };
+
+    return user;
+  } catch (error) {
+    console.error('Error fetching user:', error);
+    return null;
   }
-
-  return { user }
-}
+};
