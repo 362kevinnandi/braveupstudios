@@ -25,6 +25,7 @@ export interface User {
   role: 'admin' | 'user';
   updatedAt: string;
   createdAt: string;
+  name: string;
   email: string;
   resetPasswordToken?: string | null;
   resetPasswordExpiration?: string | null;
