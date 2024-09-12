@@ -138,7 +138,12 @@ export interface PayloadMigration {
   updatedAt: string;
   createdAt: string;
 }
-
+export interface User {
+  id: string;
+  name: string;
+  email: string;
+  // other properties as needed
+}
 
 declare module 'payload' {
   export interface GeneratedTypes extends Config {}
