@@ -29,7 +29,6 @@ export const authRouter = router({
           email,
           password,
           role: "user",
-          name: "John doe"
         },
       });
 
