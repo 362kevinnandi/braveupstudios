@@ -9,5 +9,5 @@ command = "npm install --legacy-peer-deps"
 command = "npm install --force"
 
 [phases.install]
-command = "rm -rf node_modules package-lock.json && npm install --legacy-peer-deps"
+command = "rm -rf node_modules package-lock.json"
 
