@@ -1,7 +1,2 @@
-[phases.setup]
-# Use the correct syntax to define environment variables
-NODE_VERSION = "22.8.0"
-
 [phases.install]
-command = "rm -rf node_modules package-lock.json && npm install --legacy-peer-deps && npm install --force"
-
+command = "npm install --legacy-peer-deps"
