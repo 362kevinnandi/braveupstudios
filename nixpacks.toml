@@ -3,17 +3,11 @@
 NODE_VERSION = "22.8.0"
 
 [phases.install]
-# NPM install with legacy peer deps flag to avoid dependency conflicts
 command = "npm install --legacy-peer-deps"
 
-[phases.build]
-# Run the build command
-command = "npm run build"
+[phases.install]
+command = "npm install --force"
 
-[phases.start]
-# Define how to start the app
-command = "npm start"
+[phases.install]
+command = "rm -rf node_modules package-lock.json && npm install --legacy-peer-deps"
 
-[dependencies]
-# Add extra system dependencies if necessary (e.g., 'python' or 'libpq')
-packages = ["python", "libpq"]
