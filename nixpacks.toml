@@ -1,6 +1,6 @@
 [phases.setup]
 # Use the correct syntax to define environment variables
-NODE_VERSION = "18"
+NODE_VERSION = "22.8.0"
 
 [phases.install]
 # NPM install with legacy peer deps flag to avoid dependency conflicts
