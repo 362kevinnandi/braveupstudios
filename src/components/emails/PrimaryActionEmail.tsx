@@ -29,7 +29,7 @@ export const EmailTemplate = ({
     <Html>
       <Head />
       <Preview>
-        The marketplace for high-quality digital goods.
+        The marketplace for high-quality digital houseplans.
       </Preview>
       <Body style={main}>
         <Container style={container}>
@@ -104,7 +104,7 @@ const button = {
   textDecoration: 'none',
   textAlign: 'center' as const,
   display: 'block',
-}
+} 
 
 const hr = {
   borderColor: '#cccccc',
