@@ -1,0 +1,34 @@
+[phases.install]
+    cmds = ['npm ci --force'][phases.setup]
+# Specify the Node.js version if necessary
+NODE_VERSION = "18"
+
+[phases.install]
+# Customize the install process to use the legacy peer dependencies flag
+command = "npm install --legacy-peer-deps"
+
+[phases.build]
+# Define how the app should be built
+command = "npm run build"
+
+[phases.start]
+# Command to run your application
+command = "npm start"
+
+[phases.install]
+# Add the --legacy-peer-deps flag to ignore peer dependency issues
+command = "npm install --legacy-peer-deps"
+
+[phases.install]
+# Force NPM to install dependencies even with conflicts
+command = "npm install --force"
+
+[phases.setup]
+# Set the specific Node.js version to ensure consistency across environments
+NODE_VERSION = "22.8.0"
+
+[phases.install.env]
+NODE_ENV = "production"
+
+[phases.install]
+command = "npm cache clean --force && npm install --legacy-peer-deps"
