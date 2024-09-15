@@ -3,8 +3,8 @@ Object.defineProperty(exports, "__esModule", { value: true });
 exports.PRODUCT_CATEGORIES = void 0;
 exports.PRODUCT_CATEGORIES = [
     {
-        label: 'By Styles',
-        value: 'by_styles',
+        label: 'By Style',
+        value: 'by_style',
         featured: [
             {
                 name: 'Editor picks',
@@ -24,9 +24,8 @@ exports.PRODUCT_CATEGORIES = [
         ],
     },
     {
-        label: 'By sizes',
-        label: 'By Sizes',
-        value: 'by_sizes',
+        label: 'By Size',
+        value: 'by_size',
         featured: [
             {
                 name: 'Favorite Icon Picks',
