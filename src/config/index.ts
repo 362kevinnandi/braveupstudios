@@ -1,7 +1,7 @@
 export const PRODUCT_CATEGORIES = [
   {
-    label: 'By Style',
-    value: 'by_style' as const,
+    label: 'By Styles',
+    value: 'by_styles' as const,
     featured: [
       {
         name: 'Editor picks',
@@ -21,8 +21,8 @@ export const PRODUCT_CATEGORIES = [
     ],
   },
   {
-    label: 'By Size',
-    value: 'by_size' as const,
+    label: 'By Sizes',
+    value: 'by_sizes' as const,
     featured: [
       {
         name: 'Favorite Icon Picks',
