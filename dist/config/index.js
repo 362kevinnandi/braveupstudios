@@ -24,8 +24,8 @@ exports.PRODUCT_CATEGORIES = [
         ],
     },
     {
-        label: 'Icons',
-        value: 'icons',
+        label: 'By Size',
+        value: 'by_size',
         featured: [
             {
                 name: 'Favorite Icon Picks',
