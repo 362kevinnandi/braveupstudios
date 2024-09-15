@@ -24,7 +24,11 @@ exports.PRODUCT_CATEGORIES = [
         ],
     },
     {
+<<<<<<< HEAD
         label: 'By size',
+=======
+        label: 'By Size',
+>>>>>>> 6026349d72a4829f3bf3275c6054ed8886bf8576
         value: 'by_size',
         featured: [
             {
