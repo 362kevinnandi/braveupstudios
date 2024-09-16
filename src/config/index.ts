@@ -85,7 +85,7 @@ export const PRODUCT_CATEGORIES = [
   },
    {
         label: 'Custom Design',
-        value: 'custom_design'
+        value: 'custom_design',
         featured: [
             {
                 name: 'Favorite Icon Picks',
@@ -103,5 +103,6 @@ export const PRODUCT_CATEGORIES = [
                 imageSrc: '/nav/icons/bestsellers.jpg',
             },
         ],
-    }
-]
+    },
+];
+
