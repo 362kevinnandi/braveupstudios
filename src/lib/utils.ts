@@ -30,7 +30,7 @@ export function constructMetadata({
   title = 'Braveupstudios - the marketplace for digital houseplans',
   description = 'Braveupstudios is an open-source marketplace for high-quality digital houseplans.',
   image = '/thumbnail.png',
-  icons = '/favicon.ico',
+  icons = '/logo.png',
   noIndex = false,
 }: {
   title?: string
