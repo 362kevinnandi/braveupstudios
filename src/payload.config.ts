@@ -24,8 +24,8 @@ export default buildConfig({
     user: 'users',
     bundler: webpackBundler(),
     meta: {
-      titleSuffix: '- DigitalHippo',
-      favicon: '/favicon.ico',
+      titleSuffix: '- Braveupstudios',
+      favicon: '/logo.png',
       ogImage: '/thumbnail.jpg',
     },
   },
