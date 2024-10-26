@@ -2,7 +2,7 @@ import { LucideProps } from 'lucide-react'
 
 export const Icons = {
   logo: (props: LucideProps) => (
-    <svg {...props} viewBox="0 0 1024 1024" width="1024" height="1024">
+    <svg {...props} viewBox="0 0 1024 1024" width="1300" height="1300">
       <g>
         {/* House outline */}
         <rect x="200" y="300" width="600" height="400" fill="#60a5fa" />
