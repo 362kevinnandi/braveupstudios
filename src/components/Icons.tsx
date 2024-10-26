@@ -22,7 +22,7 @@ export const Icons = {
           fill="#87befb" opacity="1"></path>
         
         {/* Text "Braveupstudios" */}
-        <text x="256" y="500" fontSize="123" fontWeight="bold" fill="#222222" textAnchor="middle">
+        <text x="256" y="500" fontSize="121" fontWeight="bold" fill="#222222" textAnchor="middle">
           Braveups
         </text>
       </g>
