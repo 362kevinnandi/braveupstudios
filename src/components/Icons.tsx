@@ -33,7 +33,7 @@ export const Icons = {
           fill="#558ce7" opacity="1"></circle>
         
         {/* Text "Braveupstudios" */}
-        <text x="1050" y="400" fontSize="400" fontWeight="bold" fill="#222222" stroke="#ffffff" strokeWidth="3" textAnchor="start">
+        <text x="1050" y="400" fontSize="300" fontWeight="bold" fill="#222222" stroke="#ffffff" strokeWidth="3" textAnchor="start">
           Braveupstudios
         </text>
       </g>
