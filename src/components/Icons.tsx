@@ -2,21 +2,26 @@ import { LucideProps } from 'lucide-react'
 
 export const Icons = {
   logo: (props: LucideProps) => (
-     <svg {...props} viewBox="0 0 2048 2048" width="2048" height="2048">
+      <svg {...props} viewBox="0 0 1600 1024" width="1600" height="1024">
       <g>
         {/* House outline */}
-        <rect x="400" y="600" width="1200" height="800" fill="#60a5fa" />
+        <rect x="300" y="250" width="700" height="500" fill="#60a5fa" />
         {/* Roof */}
-        <polygon points="300,600 1024,200 1748,600" fill="#558ce7" />
+        <polygon points="250,250 650,50 1050,250" fill="#558ce7" />
         {/* Door */}
-        <rect x="920" y="1100" width="200" height="300" fill="#222222" />
+        <rect x="620" y="550" width="120" height="200" fill="#222222" />
         {/* Windows */}
-        <rect x="500" y="700" width="200" height="200" fill="#87befb" />
-        <rect x="1348" y="700" width="200" height="200" fill="#87befb" />
+        <rect x="400" y="350" width="130" height="130" fill="#87befb" />
+        <rect x="870" y="350" width="130" height="130" fill="#87befb" />
         {/* Chimney */}
-        <rect x="1400" y="340" width="100" height="200" fill="#222222" />
+        <rect x="900" y="120" width="60" height="120" fill="#222222" />
         {/* Door knob */}
-        <circle cx="1090" cy="1250" r="14" fill="#558ce7" />
+        <circle cx="725" cy="640" r="10" fill="#558ce7" />
+
+        {/* Text "Braveups" */}
+        <text x="1150" y="500" fontSize="100" fontWeight="bold" fill="#222222">
+          Braveups
+        </text>
       </g>
     </svg>
   ),
