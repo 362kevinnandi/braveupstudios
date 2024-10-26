@@ -2,21 +2,21 @@ import { LucideProps } from 'lucide-react'
 
 export const Icons = {
   logo: (props: LucideProps) => (
-    <svg {...props} viewBox="0 0 1024 1024" width="1300" height="1300">
+     <svg {...props} viewBox="0 0 2048 2048" width="2048" height="2048">
       <g>
         {/* House outline */}
-        <rect x="200" y="300" width="600" height="400" fill="#60a5fa" />
+        <rect x="400" y="600" width="1200" height="800" fill="#60a5fa" />
         {/* Roof */}
-        <polygon points="150,300 512,100 874,300" fill="#558ce7" />
+        <polygon points="300,600 1024,200 1748,600" fill="#558ce7" />
         {/* Door */}
-        <rect x="460" y="550" width="100" height="150" fill="#222222" />
+        <rect x="920" y="1100" width="200" height="300" fill="#222222" />
         {/* Windows */}
-        <rect x="250" y="350" width="100" height="100" fill="#87befb" />
-        <rect x="674" y="350" width="100" height="100" fill="#87befb" />
+        <rect x="500" y="700" width="200" height="200" fill="#87befb" />
+        <rect x="1348" y="700" width="200" height="200" fill="#87befb" />
         {/* Chimney */}
-        <rect x="700" y="170" width="50" height="100" fill="#222222" />
+        <rect x="1400" y="340" width="100" height="200" fill="#222222" />
         {/* Door knob */}
-        <circle cx="545" cy="625" r="7" fill="#558ce7" />
+        <circle cx="1090" cy="1250" r="14" fill="#558ce7" />
       </g>
     </svg>
   ),
