@@ -19,7 +19,7 @@ export const Icons = {
         <circle cx="725" cy="640" r="10" fill="#558ce7" />
 
         {/* Text "Braveups" */}
-        <text x="1150" y="510" fontSize="130" fontWeight="bold" fill="#222222" stroke="#ffffff" strokeWidth="2">
+        <text x="1200" y="550" fontSize="200" fontWeight="bold" fill="#222222" stroke="#ffffff" strokeWidth="6">
           Braveups
         </text>
       </g>
