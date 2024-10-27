@@ -27,17 +27,17 @@ export const PRODUCT_CATEGORIES = [
             {
                 name: '1&2 Bedrooms',
                 href: "/products?category=icons",
-                imageSrc: '/nav/icons/2beds.webp',
+                imageSrc: '/nav/ui-kits/2beds.webp',
             },
             {
                 name: '3&4 Bedrooms',
                 href: '/products?category=icons&sort=desc',
-                imageSrc: '/nav/icons/new.jpg',
+                imageSrc: '/nav/ui-kits/2bdss.webp',
             },
             {
                 name: '+5 Bedrooms',
                 href: '/products?category=icons',
-                imageSrc: '/nav/icons/bestsellers.jpg',
+                imageSrc: '/nav/ui-kits/2bd.webp',
             },
         ],
     },
