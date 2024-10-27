@@ -69,17 +69,17 @@ export const PRODUCT_CATEGORIES = [
             {
                 name: 'Under $40 plans',
                 href: "/products?category=icons",
-                //imageSrc: '/nav/icons/picks.jpg',
+                imageSrc: '/nav/ui-kits/below101.webp',
             },
             {
                 name: '$40 to $100 plans',
                 href: '/products?category=icons&sort=desc',
-                //imageSrc: '/nav/icons/new.jpg',
+                imageSrc: '/nav/ui-kits/below100.webp',
             },
             {
                 name: '+$100 plans',
                 href: '/products?category=icons',
-                //imageSrc: '/nav/icons/bestsellers.jpg',
+                imageSrc: '/nav/ui-kits/5 beds above.webp',
             },
         ],
     },
