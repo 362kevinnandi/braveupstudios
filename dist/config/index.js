@@ -7,17 +7,17 @@ exports.PRODUCT_CATEGORIES = [
         value: 'by_style',
         featured: [
             {
-                name: 'Editor picks',
+                name: 'maisonette',
                 href: "/products?category=ui_kits",
                 imageSrc: '/nav/ui-kits/mixed.jpg',
             },
             {
-                name: 'New Arrivals',
+                name: 'bungalow',
                 href: '/products?category=ui_kits&sort=desc',
                 imageSrc: '/nav/ui-kits/blue.jpg',
             },
             {
-                name: 'Bestsellers',
+                name: 'Modern',
                 href: '/products?category=ui_kits',
                 imageSrc: '/nav/ui-kits/purple.jpg',
             },
@@ -28,17 +28,17 @@ exports.PRODUCT_CATEGORIES = [
         value: 'by_size',
         featured: [
             {
-                name: 'Favorite Icon Picks',
+                name: '1&2 Bedrooms',
                 href: "/products?category=icons",
-                imageSrc: '/nav/icons/picks.jpg',
+                imageSrc: '/nav/icons/2beds.webp',
             },
             {
-                name: 'New Arrivals',
+                name: '3&4 Bedrooms',
                 href: '/products?category=icons&sort=desc',
                 imageSrc: '/nav/icons/new.jpg',
             },
             {
-                name: 'Bestselling Icons',
+                name: '+5 Bedrooms',
                 href: '/products?category=icons',
                 imageSrc: '/nav/icons/bestsellers.jpg',
             },
@@ -49,17 +49,17 @@ exports.PRODUCT_CATEGORIES = [
         value: 'by_feature',
         featured: [
             {
-                name: 'Favorite Icon Picks',
+                name: 'Fireplace',
                 href: "/products?category=icons",
                 imageSrc: '/nav/icons/picks.jpg',
             },
             {
-                name: 'New Arrivals',
+                name: 'Open kitchen',
                 href: '/products?category=icons&sort=desc',
                 imageSrc: '/nav/icons/new.jpg',
             },
             {
-                name: 'Bestselling Icons',
+                name: 'Basement',
                 href: '/products?category=icons',
                 imageSrc: '/nav/icons/bestsellers.jpg',
             },
@@ -70,17 +70,17 @@ exports.PRODUCT_CATEGORIES = [
         value: 'by_budget',
         featured: [
             {
-                name: 'Favorite Icon Picks',
+                name: 'Under $40 plans',
                 href: "/products?category=icons",
                 imageSrc: '/nav/icons/picks.jpg',
             },
             {
-                name: 'New Arrivals',
+                name: '$40 to $100 plans',
                 href: '/products?category=icons&sort=desc',
                 imageSrc: '/nav/icons/new.jpg',
             },
             {
-                name: 'Bestselling Icons',
+                name: '+$100 plans',
                 href: '/products?category=icons',
                 imageSrc: '/nav/icons/bestsellers.jpg',
             },
@@ -89,23 +89,23 @@ exports.PRODUCT_CATEGORIES = [
     {
         label: 'Custom Design',
         value: 'custom_design',
-        featured: [
-            {
-                name: 'Favorite Icon Picks',
-                href: "/products?category=icons",
-                imageSrc: '/nav/icons/picks.jpg',
-            },
-            {
-                name: 'New Arrivals',
-                href: '/products?category=icons&sort=desc',
-                imageSrc: '/nav/icons/new.jpg',
-            },
-            {
-                name: 'Bestselling Icons',
-                href: '/products?category=icons',
-                imageSrc: '/nav/icons/bestsellers.jpg',
-            },
-        ],
+        //featured: [
+          //  {
+           //     name: 'Favorite Icon Picks',
+           //     href: "/products?category=icons",
+            //    imageSrc: '/nav/icons/picks.jpg',
+            //},
+            //{
+            //    name: 'New Arrivals',
+            //    href: '/products?category=icons&sort=desc',
+             //   imageSrc: '/nav/icons/new.jpg',
+           // },
+           // {
+             //   name: 'Bestselling Icons',
+            //    href: '/products?category=icons',
+             //   imageSrc: '/nav/icons/bestsellers.jpg',
+           // },
+       // ],
     },
 ];
 
