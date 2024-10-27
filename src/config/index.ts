@@ -86,23 +86,23 @@ export const PRODUCT_CATEGORIES = [
    {
         label: 'Custom Design',
         value: 'custom_design',
-        featured: [
-            {
-                name: 'Favorite Icon Picks',
-                href: "/products?category=icons",
-                imageSrc: '/nav/icons/picks.jpg',
-            },
-            {
-                name: 'New Arrivals',
-                href: '/products?category=icons&sort=desc',
-                imageSrc: '/nav/icons/new.jpg',
-            },
-            {
-                name: 'Bestselling Icons',
-                href: '/products?category=icons',
-                imageSrc: '/nav/icons/bestsellers.jpg',
-            },
-        ],
+        //featured: [
+          //  {
+            //    name: 'Favorite Icon Picks',
+              //  href: "/products?category=icons",
+               // imageSrc: '/nav/icons/picks.jpg',
+            //},
+           // {
+              //  name: 'New Arrivals',
+              //  href: '/products?category=icons&sort=desc',
+              //  imageSrc: '/nav/icons/new.jpg',
+           // },
+            //{
+              //  name: 'Bestselling Icons',
+               // href: '/products?category=icons',
+               // imageSrc: '/nav/icons/bestsellers.jpg',
+           // },
+        //],
     },
 ];
 
