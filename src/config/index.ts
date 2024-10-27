@@ -1,25 +1,25 @@
 export const PRODUCT_CATEGORIES = [
   {
-    label: 'By Style',
-    value: 'by_style' as const,
-    featured: [
-      {
-        name: 'Editor picks',
-        href: `/products?category=ui_kits`,
-        imageSrc: '/nav/ui-kits/mixed.jpg',
-      },
-      {
-        name: 'New Arrivals',
-        href: '/products?category=ui_kits&sort=desc',
-        imageSrc: '/nav/ui-kits/blue.jpg',
-      },
-      {
-        name: 'Bestsellers',
-        href: '/products?category=ui_kits',
-        imageSrc: '/nav/ui-kits/purple.jpg',
-      },
-    ],
-  },
+     label: 'By Style',
+        value: 'by_style' as const,
+        featured: [
+            {
+                name: 'maisonette',
+                href: "/products?category=ui_kits",
+                imageSrc: '/nav/ui-kits/mixed.jpg',
+            },
+            {
+                name: 'bungalow',
+                href: '/products?category=ui_kits&sort=desc',
+                imageSrc: '/nav/ui-kits/blue.jpg',
+            },
+            {
+                name: 'Modern',
+                href: '/products?category=ui_kits',
+                imageSrc: '/nav/ui-kits/purple.jpg',
+            },
+        ],
+    },
   {
     label: 'By Size',
     value: 'by_size' as const,
