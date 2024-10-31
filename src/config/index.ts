@@ -26,17 +26,17 @@ export const PRODUCT_CATEGORIES = [
         featured: [
             {
                 name: '1&2 Bedrooms',
-                href: "/products?category=icons",
+                href: "/products?category=by_size",
                 imageSrc: '/nav/ui-kits/2beds.webp',
             },
             {
                 name: '3&4 Bedrooms',
-                href: '/products?category=icons&sort=desc',
+                href: '/products?category=by_size&sort=desc',
                 imageSrc: '/nav/ui-kits/2bdss.webp',
             },
             {
                 name: '+5 Bedrooms',
-                href: '/products?category=icons',
+                href: '/products?category=by_size',
                 imageSrc: '/nav/ui-kits/5 beds above.webp',
             },
         ],
@@ -47,17 +47,17 @@ export const PRODUCT_CATEGORIES = [
         featured: [
             {
                 name: 'Fireplace',
-                href: "/products?category=icons",
+                href: "/products?category=by_feature",
                 imageSrc: '/nav/ui-kits/fireplace.webp',
             },
             {
                 name: 'Open kitchen',
-                href: '/products?category=icons&sort=desc',
+                href: '/products?category=by_feature&sort=desc',
                 imageSrc: '/nav/ui-kits/open kitchen.jpg',
             },
             {
                 name: 'Basement',
-                href: '/products?category=icons',
+                href: '/products?category=by_feature',
                 imageSrc: '/nav/ui-kits/basement.webp',
             },
         ],
@@ -68,17 +68,17 @@ export const PRODUCT_CATEGORIES = [
         featured: [
             {
                 name: 'Under $40 plans',
-                href: "/products?category=icons",
+                href: "/products?category=by_budget",
                 imageSrc: '/nav/ui-kits/below101.webp',
             },
             {
                 name: '$40 to $100 plans',
-                href: '/products?category=icons&sort=desc',
+                href: '/products?category=by_budget&sort=desc',
                 imageSrc: '/nav/ui-kits/below100.webp',
             },
             {
                 name: '+$100 plans',
-                href: '/products?category=icons',
+                href: '/products?category=by_budget',
                 imageSrc: '/nav/ui-kits/5 beds above.webp',
             },
         ],
@@ -89,17 +89,17 @@ export const PRODUCT_CATEGORIES = [
         featured: [
             {
                 name: 'My home',
-                href: "/products?category=icons",
+                href: "/products?category=custom_design",
                 imageSrc: '/nav/ui-kits/home.webp',
             },
             {
                 name: 'Business',
-                href: '/products?category=icons&sort=desc',
+                href: '/products?category=custom_design&sort=desc',
                 imageSrc: '/nav/ui-kits/comm.webp',
             },
             {
                 name: 'Rentals',
-                href: '/products?category=icons',
+                href: '/products?category=custom_design',
                 imageSrc: '/nav/ui-kits/flat.webp',
             },
         ],
