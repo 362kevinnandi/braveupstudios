@@ -25,7 +25,7 @@ export default buildConfig({
     bundler: webpackBundler(),
     meta: {
       titleSuffix: '- Braveupstudios',
-      favicon: '/logo.png',
+      favicon: '/logo1.png',
       ogImage: '/thumbnail.jpg',
     },
   },
