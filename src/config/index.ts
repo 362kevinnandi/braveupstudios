@@ -88,18 +88,18 @@ export const PRODUCT_CATEGORIES = [
         value: 'custom_design',
         featured: [
             {
-                name: 'customdesigns@braveupstudios.co.ke',
+                name: 'email:customdesigns@braveupstudios.co.ke',
                 href: "#",
                 imageSrc: '/nav/ui-kits/home.webp',
             },
             {
-                name: 'customdesigns@braveupstudios.co.ke',
+                name: 'email:customdesigns@braveupstudios.co.ke',
                 imageSrc: '/nav/ui-kits/comm.webp',
                 href: "mailto:customdesigns@braveupstudios.co.ke"
 
             },
             {
-                name: 'customdesigns@braveupstudios.co.ke',
+                name: 'email:customdesigns@braveupstudios.co.ke',
                 href: '#',
                 imageSrc: '/nav/ui-kits/flat.webp'
             },
