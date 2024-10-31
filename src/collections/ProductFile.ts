@@ -83,6 +83,7 @@ export const ProductFiles: CollectionConfig = {
       'image/*',
       'font/*',
       'application/postscript',
+      'application/pdf',
     ],
   },
   fields: [
