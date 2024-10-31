@@ -5,17 +5,17 @@ export const PRODUCT_CATEGORIES = [
         featured: [
             {
                 name: 'maisonette',
-                href: "/products?category=ui_kits",
+                href: "/products?category=by_style",
                 imageSrc: '/nav/ui-kits/moise.webp',
             },
             {
                 name: 'bungalow',
-                href: '/products?category=ui_kits&sort=desc',
+                href: '/products?category=by_style&sort=desc',
                 imageSrc: '/nav/ui-kits/bungalo.webp',
             },
             {
                 name: 'Modern',
-                href: '/products?category=ui_kits',
+                href: '/products?category=by_style',
                 imageSrc: '/nav/ui-kits/modern.webp',
             },
         ],
