@@ -99,8 +99,9 @@ export const PRODUCT_CATEGORIES = [
             },
             {
                 name: 'Rentals',
-                href: 'mailto:customdesigns@braveupstudios.co.ke',
                 imageSrc: '/nav/ui-kits/flat.webp',
+                href: 'mailto://customdesigns@braveupstudios.co.ke'
+
             },
         ],
     },
